@@ -42,140 +42,233 @@ Late penalty:
 
 ### Thursday
 - how the internet works
-- how a browser works
-- how HTTP works
+- client to server communications
+- browser basics
 
 ### Homework
-- required: none
-- recommended:
+- required
+	- none
+- recommended
 	- read WAHH chapter 12
 	- read WAHH chapter 3
 
 
 ## Week 2 - XSS (April 6 to 10)
 ### Tuesday
-
+- cross-site scripting (XSS)
+	- how it works
+	- why it's so common
+	- why it's bad
+	- how to find it
+	- how to mitigate
+- reflective XSS
+- stored XSS
+- DOM XSS
+- XSS demos
 
 ### Wednesday
-
+- regular expressions
 
 ### Thursday
-
+- filter bypass techniques
+	- no spaces (encoding and slashes)
+	- no script tag
+	- XSS via images
+	- encoding galore
+	- other weirdness
+- do stuff
+	- filter bypassing
 
 ### Homework
-
+- required
+	- XSS challenges
+	- pentest report
+	- due next thursday
 
 
 ## Week 3 - XSS (April 13 to 17)
 ### Tuesday
-
+- advanced payloads
+	- exfiltrating cookies
+	- inducing user action
+	- fake login forms
 
 ### Wednesday
- 
+- how Tor works
 
 ### Thursday
-
+- go over homework
+- BeEF framework
+- client-side exploits
 
 ### Homework
+- required
+	- special XSS payloads
+- recommended
+	- reading on CSRF and Clickjacking
+		- WAHH Chapter 13 section on "Inducing User Action" (501-515)
+		- http://www.troyhunt.com/2013/05/clickjack-attack-hidden-threat-right-in.html
 
 
-
-## Week 4 - CSRF (April 20 to 24)
+## Week 4 - CSRF & Clickjacking (April 20 to 24)
 ### Tuesday
-
+- CSRF
+	- how it works
+	- why it's bad
+	- how to find it
+	- how to mitigate
+- CSRF examples
+	- demo CSRF
 
 ### Wednesday
-
+- character encoding
+- unicode security
+- punycode domains
 
 ### Thursday
-
+- go over homework
+- Clickjacking
+	- how it works
+	- why it's bad
+	- how to mitigate
+	- special tactics
 
 ### Homework
-
+- required
+	- CSRF challenges
+	- clickjacking challenges
+	- pentest report
+	- due next thursday
+- recommended
+	- read SQLi WAHH chapter
 
 
 ## Week 5 - SQLi (April 27 to May 2)
 ### Tuesday
-
+- SQL injection
+	- how it works
+	- why it's bad
+	- how to find it
+	- how to mitigate
+	- how to pull data
+	- special tactics
+- SQLi demos
 
 ### Wednesday
-
+- buffer overflows
 
 ### Thursday
-
+- SQL practice
 
 ### Homework
-
+- required
+	- SQL injection challenges
+	- pentest report
+	- due next thursday
 
 
 ## Week 6 - SQLi (May 4 to 8)
 ### Tuesday
-
+- Advanced SQL injection techniques
 
 ### Wednesday
-
+- lockpicking
+	- slides
+	- https://www.youtube.com/watch?v=ChbyaXBKNY8
 
 ### Thursday
-
+- Hibernation attacks
 
 ### Homework
+- required
+	- advanced SQL challenges
+	- pentest report
+	- due next thursday
 
 
-
-## Week 7 - Clickjacking (May 11 to 15)
+## Week 7 - Authentication (May 11 to 15)
 ### Tuesday
-
+- session fixation
+- session invalidation issues
 
 ### Wednesday
-
+- metasploit
 
 ### Thursday
-
+- authentication 2.0
+	- 2 factor auth
+	- single signon
+	- cookie tossing
 
 ### Homework
-
+required
+	- midterm
+	- due next tuesday
 
 
 ## Week 8 - Crypto (May 18 to 22)
 ### Tuesday
-
+- cryptography
+	- public/private key
+	- forward secrecy
+	- hashes
+	- stream vs block cipher
+	- algorithm modes: ECB, CBC, others
 
 ### Wednesday
-
+- keyloggers
 
 ### Thursday
-
+- authentication
+	- walk through typical auth scheme
+	- password hashing
+	- set cookie
+	- attacks
+- info leakage
+- cookie entropy
+- cookie settings
+- ssl scan
 
 ### Homework
-
+required
+	- crypto challenges
+	- pentest report
+	- due next thursday
 
 
 ## Week 9 - Advanced (May 25 to 29)
 ### Tuesday
-
+- remote file inclusion (RFI)
+- local file inclusion (LFI)
 
 ### Wednesday
-
+- bitcoin
 
 ### Thursday
-
+- tricking password managers
+- race conditions
 
 ### Homework
-
+required
+	- adnvanced vulnerability challenges 
+		- LFI challenges
+		- race condition challenge
+		- tricking a password manager
 
 
 ## Week 10 - Advanced (June 1 to 5)
 ### Tuesday
-
+- mass assignment attacks
+- deserialization attacks
 
 ### Wednesday
-
+- online challenges
 
 ### Thursday
-
+- review
 
 ### Homework
+- final
 
 
-
-## Final - no final, enjoy your summer!
+## Final - no final during finals week, enjoy your summer!
