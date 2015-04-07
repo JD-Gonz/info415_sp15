@@ -67,7 +67,9 @@ Late penalty:
 - XSS demos
 
 ### Wednesday
-- regular expressions
+- character encoding
+- unicode security
+- punycode domains
 
 ### Thursday
 - filter bypass techniques
@@ -94,7 +96,7 @@ Late penalty:
 	- fake login forms
 
 ### Wednesday
-- how Tor works
+- regular expressions
 
 ### Thursday
 - go over homework
@@ -121,9 +123,7 @@ Late penalty:
 	- demo CSRF
 
 ### Wednesday
-- character encoding
-- unicode security
-- punycode domains
+- how Tor works
 
 ### Thursday
 - go over homework
@@ -140,7 +140,7 @@ Late penalty:
 	- pentest report
 	- due next thursday
 - recommended
-	- read SQLi WAHH chapter
+	- read WAHH chapter 9
 
 
 ## Week 5 - SQLi (April 27 to May 2)
@@ -184,6 +184,9 @@ Late penalty:
 	- advanced SQL challenges
 	- pentest report
 	- due next thursday
+- recommended
+	- read WAHH chapter 6
+	- read WAHH chapter 7
 
 
 ## Week 7 - Authentication (May 11 to 15)
@@ -234,7 +237,9 @@ required
 	- crypto challenges
 	- pentest report
 	- due next thursday
-
+recommended
+	- read WAHH Chapter 10 section "Manipulating File Paths"
+	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
 
 ## Week 9 - Advanced (May 25 to 29)
 ### Tuesday
