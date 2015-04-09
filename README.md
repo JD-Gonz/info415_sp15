@@ -65,6 +65,7 @@ Late penalty:
 - stored XSS
 - DOM XSS
 - XSS demos
+- practice: http://xss-quiz.int21h.jp/
 
 ### Wednesday
 - character encoding
@@ -73,7 +74,7 @@ Late penalty:
 
 ### Thursday
 - filter bypass techniques
-	- no spaces (encoding and slashes)
+	- no spaces
 	- no script tag
 	- XSS via images
 	- encoding galore
