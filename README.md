@@ -89,7 +89,7 @@ Late penalty:
 	- due next thursday
 
 
-## Week 3 - XSS (April 13 to 17)
+## Week 3 - XSS 2 (April 13 to 17)
 ### Tuesday
 - advanced payloads
 	- exfiltrating cookies
@@ -107,6 +107,7 @@ Late penalty:
 ### Homework
 - required
 	- special XSS payloads
+	- due next thursday
 - recommended
 	- reading on CSRF and Clickjacking
 		- WAHH Chapter 13 section on "Inducing User Action" (501-515)
@@ -168,7 +169,7 @@ Late penalty:
 	- due next thursday
 
 
-## Week 6 - SQLi (May 4 to 8)
+## Week 6 - SQLi 2 (May 4 to 8)
 ### Tuesday
 - Advanced SQL injection techniques
 
