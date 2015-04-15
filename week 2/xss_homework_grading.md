@@ -1,15 +1,15 @@
 ## XSS Homework Grading
 Homework challenges can be found at: http://xss-challenges.r7.io/
 
-### Part 1 - Vulnerabilities - 24 points
-Each vulnerability will be worth 1.5 points. To earn 100% on this section you must complete all 16 challenges. 
+### Part 1 - Vulnerabilities - 25.5 points
+Each vulnerability will be worth 1.5 points. To earn 100% on this section you must complete all 17 challenges. 
 
 Each vulnerability must call "alert(0)" via a payload entered through the website in order to demonstrate script execution. It is preferable that the injected JavaScript execute automatically when the page loads, but that may not be possible in all cases. Please try to make it automatic where you can. Each answer must be in the form of a URL (link) that you could send to a victim to click on if possible. One challenge cannot be triggered via a link. In that case supply the steps so I can re-create the attack.
 
-### Part 3 - The Report - 6 points
-- Description (1 point)
+### Part 3 - The Report - 4.5 points
+- Description (.5 point)
 	- 2 to 3 sentences describing the type of vulernability (in this case: Reflected Cross-Site Scripting), what it is, and why it's bad.
-- Test Steps (3 points)
+- Test Steps (2 points)
 	- 1 set of test steps for the highest challenges you solved. These must include how you found the vulnerability, and why it happened.
 		- If you solved 1-7, 9, 10, and 11 then you would write test steps for 11 (the highest)
 		- These should be detailed enough that someone in the class who didn't solve the challenges could walk through the steps, be able to reproduce the vulnerabilities, know how they worked, and why they happened.
