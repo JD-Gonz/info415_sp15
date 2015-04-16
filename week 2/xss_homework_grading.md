@@ -10,7 +10,7 @@ Note:
 	- No importing external scripts or externally hosted files.
 	- Only 5 onmouseover style payloads are necessary, if you have more than 5 payloads that utilize onmouseover then there is room for improvement.
 
-### Part 3 - The Report - 4.5 points
+### Part 2 - The Report - 4.5 points
 - Description (.5 point)
 	- 2 to 3 sentences describing the type of vulernability (in this case: Reflected Cross-Site Scripting), what it is, and why it's bad.
 - Test Steps (2 points)
