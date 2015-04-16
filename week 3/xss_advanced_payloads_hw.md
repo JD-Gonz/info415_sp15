@@ -1,7 +1,7 @@
 ## XSS Advanced Payloads
 
 ### Phase 1 (over the weekend)
-Location: https://info415.csuw.net/snapchat/user.php?action=login
+Location: https://snapcat.csuw.net/
 
 For phase 1 you will want to do the following:
 - Create 2 accounts for testing
