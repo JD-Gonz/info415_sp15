@@ -1,9 +1,12 @@
 ## XSS Advanced Payloads
 
-### Phase 1 (over the weekend)
+### Phase 1
 Location: https://snapcat.csuw.net/
 
 For phase 1 you will want to do the following:
+- Setup Burp as an intercept proxy for Firefox
+	- Make sure Firefox is proxying both HTTP and SSL traffic
+	- See slide deck on tools setup from week 1 for more information
 - Create 2 accounts for testing
 	- One will be the victim and one will be the attacker
 - Familiarize yourself with the web app, submit posts, follow and unfollow other users
@@ -25,19 +28,18 @@ For phase 1 you will want to do the following:
 	- Deploy the stored XSS with the payload and browse to it with your victim account
 		- See if you can cause the victim to automatically make a post just by browsing around and tripping the payload
 
-Note: Everyone is sharing this testing environment so delete posts you're not actively using and cover your tracks so you don't leave a mess. Also leave eachother alone and don't hack eachother's accounts.
+Note: Everyone is sharing this testing environment so delete posts you're not actively using and cover your tracks so you don't leave a mess. Also leave eachother alone and don't hack eachother's accounts. Traffic will be logged!
 
 
-### Phase 2 (Tuesday - Thursday)
+### Phase 2
 Location: TBD
 
 Here's the situation:
 - You can only view someone's wall if they are following you
-- The user social_butterfly follows and views everyone's posts constantly
-- The user admin only follows social_butterfly and views her posts occasionally
-- The user Wilfred only follows admin and views his posts occasionally
+- The user butterfly follows and views everyone's posts constantly
+- The user admin only follows butterfly and views their posts occasionally
 
-For phase 2 you will take the payloads generated in phase 1 and string them together in order to get the admin to follow you so you can read something on their wall and so you can steal a cookie from another user, Wilfred. This can all be done in a single XSS payload that will spread through the system, or can be done is separate steps, stealing the other user's sessions as you go. The browsing by the social_butterfly, admin, and Wilfred will be automated so it is your choice on how you solve it, but points will be awarded for use of a single payload.
+For phase 2 you will take two of the payloads generated in phase 1 and string them together in order to get the admin to follow you so you can read something on their wall. This can be done in a single XSS payload that will spread through the system, or can be done is separate steps, stealing the other user's sessions as you go. The browsing by the butterfly and admin will be automated so it is your choice on how you solve it, but points will be awarded for use of a single payload.
 
 
 ### Deliverables
@@ -46,14 +48,13 @@ The point breakdown is as follows:
 - Cookie stealing XSS payload (4 points)
 - "Follow me" XSS payload (7 points)
 - Auto-post XSS payload (10 points)
-- One super payload combining the above (5 points)
+- A single payload combining the "auto-post" and "follow me" payloads (5 points)
 - The loot
-	- The message on the admin's wall (2 points)
-	- Wilfred's session cookie (2 points)
+	- The message on the admin's wall (4 points)
 
 
 ### Due Date
-3:30pm (15:30) Thursday April 23th 2014 
+3:30pm (15:30) Tuesday April 28th 2014 
 
 ### Note
 Please include links to any pages, guides, tutorials, people, or anything you used to help you figure out these challenges. Please do not cheat or trade answers! If you gently/fairly help one another out make sure to credit the people that helped you in your report. Give credit where credit is due.

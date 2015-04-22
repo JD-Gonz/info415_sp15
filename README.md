@@ -100,14 +100,13 @@ Late penalty:
 - regular expressions
 
 ### Thursday
-- go over homework
-- BeEF framework
-- client-side exploits
+- guest lecture
+- puzzle
 
 ### Homework
 - required
 	- special XSS payloads
-	- due next thursday
+	- due tuesday after next
 - recommended
 	- reading on CSRF and Clickjacking
 		- WAHH Chapter 13 section on "Inducing User Action" (501-515)
@@ -116,24 +115,25 @@ Late penalty:
 
 ## Week 4 - CSRF & Clickjacking (April 20 to 24)
 ### Tuesday
+- go over last weeks hw
 - CSRF
 	- how it works
 	- why it's bad
 	- how to find it
 	- how to mitigate
-- CSRF examples
-	- demo CSRF
 
 ### Wednesday
+- puzzle solution
 - how Tor works
 
 ### Thursday
-- go over homework
+- CSRF demo
 - Clickjacking
 	- how it works
 	- why it's bad
 	- how to mitigate
 	- special tactics
+- Clickjacking demo
 
 ### Homework
 - required
