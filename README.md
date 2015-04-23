@@ -155,12 +155,14 @@ Late penalty:
 	- how to pull data
 	- special tactics
 - SQLi demos
+- SQL practice
 
 ### Wednesday
 - buffer overflows
 
 ### Thursday
-- SQL practice
+- SQL injection practice
+	- OWASP Broken Web Application
 
 ### Homework
 - required
@@ -206,9 +208,7 @@ Late penalty:
 	- cookie tossing
 
 ### Homework
-required
-	- midterm
-	- due next tuesday
+- none
 
 
 ## Week 8 - Crypto (May 18 to 22)
@@ -236,12 +236,12 @@ required
 
 ### Homework
 required
-	- crypto challenges
-	- pentest report
-	- due next thursday
+	- midterm
+	- due next tuesday
 recommended
 	- read WAHH Chapter 10 section "Manipulating File Paths"
 	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
+
 
 ## Week 9 - Advanced (May 25 to 29)
 ### Tuesday

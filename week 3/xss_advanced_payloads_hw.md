@@ -11,6 +11,7 @@ For phase 1 you will want to do the following:
 	- One will be the victim and one will be the attacker
 - Familiarize yourself with the web app, submit posts, follow and unfollow other users
 - Find the stored XSS
+	- The XSS should trigger automatically, no onmouseover or onclick
 - Generate a payload that steals another user's cookies
 	- Remember you can use http://r7.io/exfil_create to help steal the cookie
 	- Check the week 3 slides and demos for help
@@ -27,6 +28,12 @@ For phase 1 you will want to do the following:
 	- Remember that a POST request can be generated in the background by using AJAX
 	- Deploy the stored XSS with the payload and browse to it with your victim account
 		- See if you can cause the victim to automatically make a post just by browsing around and tripping the payload
+- Tips
+	- Test your JS in the Firefox Developer Console - copy the payload, paste it, and hit enter. It should perform the same way as if you browsed to the page with the stored XSS
+	- DON'T SAVE YOUR PAYLOAD IN MICROSOFT WORD OR GOOGLE DOCS! It will mess with the quotes and neuter your payload
+		- http://imgur.com/oyKV4lE - Here you can see both types of quotes displayed in Sublime Text 2. The bad quotes are from the payload after I wrote it in Word. The second payload I wrote in Sublime Text 2. Notice the bad quotes are slightly more curved.
+		- http://imgur.com/kDuNd3t - Here I copied the payloads into Firefox's developer tools console and ran it. The payload with the curvy quotes (BAD) from Word fails. The payload written in Sublime Text 2 with the straight ASCII quotes (GOOD) works just fine.
+
 
 Note: Everyone is sharing this testing environment so delete posts you're not actively using and cover your tracks so you don't leave a mess. Also leave eachother alone and don't hack eachother's accounts. Traffic will be logged!
 
