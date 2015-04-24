@@ -1,7 +1,7 @@
-## Clickjacking HW Grading
+## Clickjacking HW Grading (15 points total)
 Homework challenges can be found at http://clickjacking-challenges.r7.io/
 
-## Part 1 - Vulnerabilities (8 points)
+## Part 1 - Vulnerabilities (3 points)
 Level 1: 3 points
 
 Level 2: 6 points
@@ -19,7 +19,7 @@ Note: the default URL parameters have to be changed to your information.
 ## Part 3 - The Report (2 points)
 - Description (1 point)
 - Mitigations (1 point)
-	- Give a mitigation recommendations for stopping clickjacking
+	- Give a mitigation recommendations for stopping clickjacking. A couple sentences - what to do, how it works.
 
 This must be submitted as a txt file. Please no PDFs or Word docs!
 

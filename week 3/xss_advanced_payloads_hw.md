@@ -1,4 +1,4 @@
-## XSS Advanced Payloads
+## XSS Advanced Payloads (30 points total)
 
 ### Phase 1
 Location: https://snapcat.csuw.net/
@@ -39,7 +39,7 @@ Note: Everyone is sharing this testing environment so delete posts you're not ac
 
 
 ### Phase 2
-Location: TBD
+Location: https://snapcat.csuw.net/
 
 Here's the situation:
 - You can only view someone's wall if they are following you
