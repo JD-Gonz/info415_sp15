@@ -8,7 +8,7 @@ Homework challenges can be found at: http://csrf-challenges.r7.io/
 
 To earn full points on each challenge you must craft a webpage (for levels 1 & 2) and a link with an XSS payload (for level 3) that when the Admin goes to that page/link, it stealthily makes a post to the corresponding admin post page. This post MUST contain your full UW email.
 
-Example: You create a webpage for Level 1 that I (as the admin) will open. This webpage needs to automatically submit a request in order to make a post to the Level 1 post page on http://csrf-challeges.r7.io. This post is made on behalf of the Admin without them knowing. Make sure to put your full UW email in the contents of the post so I can easily verify you.
+Example: You create a webpage for Level 1 that I (as the admin) will open. This webpage needs to automatically submit a request in order to make a post to the Level 1 post page on http://csrf-challenges.r7.io. This post is made on behalf of the Admin without them knowing. Make sure to put your full UW email in the contents of the post so I can easily verify you.
 
 TL;DR - for 100% you must turn in 2 pages and a URL/link that when clicked on by the admin a post will be submitted to their respective post page (level 1 to level 1 post page, level 2 to level 2 post page, etc). Be sure to include your full UW email in the contents of the post.
 
@@ -23,6 +23,12 @@ TL;DR - for 100% you must turn in 2 pages and a URL/link that when clicked on by
 		- Django
 	- This should include a few sentences about how to properly mitigate CSRF and a code example for each framework/language
 	- Include a link or two to further reading/reference for the "developer"
+
+## Deliverables
+A .zip file containing the following:
+1. An HTML file that opens in Firefox and triggers the CSRF attack against lvl 1 and make a post on the lvl 1 wall.
+2. An HTML file that opens in Firefox and triggers the CSRF attack against lvl 2 and make a post on the lvl 2 wall.
+3. A .txt file containing a URL that I can copy and paste into Firefox that will trigger an attack against lvl 3 and make a post on the lvl 3 wall.
 
 ## Due Date
 You can submit your malicious pages and link to me on Monday April 27nd by 5:30pm (17:30) via email and I will run them. This will allow you to verify whether your CSRF attacks worked, and if they didn't work, give you a few days to tweak them.
