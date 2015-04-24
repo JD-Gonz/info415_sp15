@@ -26,6 +26,7 @@ TL;DR - for 100% you must turn in 2 pages and a URL/link that when clicked on by
 
 ## Deliverables
 A .zip file containing the following:
+
 1. An HTML file that opens in Firefox and triggers the CSRF attack against lvl 1 and make a post on the lvl 1 wall.
 2. An HTML file that opens in Firefox and triggers the CSRF attack against lvl 2 and make a post on the lvl 2 wall.
 3. A .txt file containing a URL that I can copy and paste into Firefox that will trigger an attack against lvl 3 and make a post on the lvl 3 wall.

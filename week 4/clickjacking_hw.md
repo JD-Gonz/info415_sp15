@@ -25,6 +25,7 @@ This must be submitted as a txt file. Please no PDFs or Word docs!
 
 ## Deliverables
 A .zip file containing:
+
 1. An HTML page I can open in Firefox that entices me to click somewhere on the page and triggers a clickjacking attack against the level 1 form.
 2. An HTML page I can open in FIrefox that entices me to click somewhere on the page and triggers a clickjacking attack against the level 2 form.
 

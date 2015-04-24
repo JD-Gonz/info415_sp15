@@ -51,6 +51,7 @@ For phase 2 you will take two of the payloads generated in phase 1 and string th
 
 ### Deliverables
 A .txt file containing the following:
+
 1. Cookie stealing XSS payload (4 points)
 2. "Follow me" XSS payload (7 points)
 3. Auto-post XSS payload (10 points)
