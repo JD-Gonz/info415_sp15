@@ -2,9 +2,9 @@
 Homework challenges can be found at http://clickjacking-challenges.r7.io/
 
 ## Part 1 - Vulnerabilities (8 points)
-Level 1: 2 points
+Level 1: 3 points
 
-Level 2: 4 points
+Level 2: 6 points
 
 Style: 4 points
 
