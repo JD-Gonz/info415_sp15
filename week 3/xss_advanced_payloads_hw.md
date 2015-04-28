@@ -52,11 +52,10 @@ For phase 2 you will take two of the payloads generated in phase 1 and string th
 ### Deliverables
 A .txt file containing the following:
 
-1. Cookie stealing XSS payload (4 points)
-2. "Follow me" XSS payload (7 points)
-3. Auto-post XSS payload (10 points)
-4. A single payload combining the "auto-post" and "follow me" payloads (5 points)
-5. The loot - the message on the admin's wall (4 points)
+1. Cookie stealing XSS payload (5 points)
+2. "Follow me" XSS payload (8 points)
+3. Auto-post XSS payload (11 points)
+4. A single payload combining the "auto-post" and "follow me" payloads (6 points)
 
 These payloads need to be in a form that I can straight copy and paste into the snapcat site to verify they work. The loot can just be written in the .txt file.
 
