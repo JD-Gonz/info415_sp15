@@ -46,7 +46,7 @@ Here's the situation:
 - The user butterfly follows and views everyone's posts constantly
 - The user admin only follows butterfly and views their posts occasionally
 
-For phase 2 you will take two of the payloads generated in phase 1 and string them together in order to get the admin to follow you so you can read something on their wall. This can be done in a single XSS payload that will spread through the system, or can be done is separate steps, stealing the other user's sessions as you go. The browsing by the butterfly and admin will be automated so it is your choice on how you solve it, but points will be awarded for use of a single payload.
+For phase 2 you will take two of the payloads generated in phase 1 and string them together in order to get the admin to follow you. This can be done in a single XSS payload that will spread through the system, or can be done is separate steps, stealing the other user's sessions as you go. The browsing by the butterfly and admin will be automated so it is your choice on how you solve it, but points will be awarded for use of a single payload.
 
 
 ### Deliverables
