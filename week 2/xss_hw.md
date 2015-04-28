@@ -7,8 +7,8 @@ Each vulnerability will be worth 1.5 points. To earn 100% on this section you mu
 Each vulnerability must call "alert(0)" via a payload entered through the website in order to demonstrate script execution. It is preferable that the injected JavaScript execute automatically when the page loads, but that may not be possible in all cases. Please try to make it automatic where you can. Each answer must be in the form of a URL (link) that you could send to a victim to click on if possible. One challenge cannot be triggered via a link. In that case supply the steps so I can re-create the attack.
 
 Note: 
-	- No importing external scripts or externally hosted files.
-	- Only 5 onmouseover style payloads are necessary, if you have more than 5 payloads that utilize onmouseover then there is room for improvement.
+- No importing external scripts or externally hosted files.
+- Only 5 onmouseover style payloads are necessary, if you have more than 5 payloads that utilize onmouseover then there is room for improvement.
 
 ### Part 2 - The Report - 4.5 points
 - Description (.5 point)

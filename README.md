@@ -158,7 +158,9 @@ Late penalty:
 - SQL practice
 
 ### Wednesday
-- buffer overflows
+- lockpicking
+	- slides
+	- https://www.youtube.com/watch?v=ChbyaXBKNY8
 
 ### Thursday
 - SQL injection practice
@@ -176,9 +178,7 @@ Late penalty:
 - Advanced SQL injection techniques
 
 ### Wednesday
-- lockpicking
-	- slides
-	- https://www.youtube.com/watch?v=ChbyaXBKNY8
+- buffer overflows
 
 ### Thursday
 - Hibernation attacks
