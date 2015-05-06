@@ -167,10 +167,7 @@ Late penalty:
 	- OWASP Broken Web Application
 
 ### Homework
-- required
-	- SQL injection challenges
-	- pentest report
-	- due next thursday
+- none
 
 
 ## Week 6 - SQLi 2 (May 4 to 8)
@@ -178,13 +175,17 @@ Late penalty:
 - Advanced SQL injection techniques
 
 ### Wednesday
-- buffer overflows
+- keyloggers
 
 ### Thursday
 - Hibernation attacks
 
 ### Homework
-- required
+- required 1
+	- SQL injection challenges
+	- pentest report
+	- due next tuesday
+- required 2
 	- advanced SQL challenges
 	- pentest report
 	- due next thursday
@@ -221,7 +222,7 @@ Late penalty:
 	- algorithm modes: ECB, CBC, others
 
 ### Wednesday
-- keyloggers
+- buffer overflows
 
 ### Thursday
 - authentication
