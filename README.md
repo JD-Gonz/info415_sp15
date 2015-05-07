@@ -175,7 +175,7 @@ Late penalty:
 - Advanced SQL injection techniques
 
 ### Wednesday
-- keyloggers
+- class canceled
 
 ### Thursday
 - Hibernation attacks
@@ -200,7 +200,7 @@ Late penalty:
 - session invalidation issues
 
 ### Wednesday
-- metasploit
+- keyloggers
 
 ### Thursday
 - authentication 2.0
