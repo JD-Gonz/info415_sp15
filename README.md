@@ -178,7 +178,7 @@ Late penalty:
 - class canceled
 
 ### Thursday
-- Hibernation attacks
+- keyloggers
 
 ### Homework
 - required 1
@@ -200,7 +200,7 @@ Late penalty:
 - session invalidation issues
 
 ### Wednesday
-- keyloggers
+- metasploit
 
 ### Thursday
 - authentication 2.0
@@ -213,6 +213,29 @@ Late penalty:
 
 
 ## Week 8 - Crypto (May 18 to 22)
+### Tuesday
+- remote file inclusion (RFI)
+- local file inclusion (LFI)
+
+### Wednesday
+- bitcoin
+
+### Thursday
+- tricking password managers
+- race conditions
+
+### Homework
+- required
+	- advanced vulnerability challenges 
+		- LFI challenges
+		- race condition challenge
+		- tricking a password manager
+- recommended
+	- read WAHH Chapter 10 section "Manipulating File Paths"
+	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
+
+
+## Week 9 - Advanced (May 25 to 29)
 ### Tuesday
 - cryptography
 	- public/private key
@@ -236,33 +259,9 @@ Late penalty:
 - ssl scan
 
 ### Homework
-required
+- required
 	- midterm
 	- due next tuesday
-recommended
-	- read WAHH Chapter 10 section "Manipulating File Paths"
-	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
-
-
-## Week 9 - Advanced (May 25 to 29)
-### Tuesday
-- remote file inclusion (RFI)
-- local file inclusion (LFI)
-
-### Wednesday
-- bitcoin
-
-### Thursday
-- tricking password managers
-- race conditions
-
-### Homework
-required
-	- adnvanced vulnerability challenges 
-		- LFI challenges
-		- race condition challenge
-		- tricking a password manager
-
 
 ## Week 10 - Advanced (June 1 to 5)
 ### Tuesday
