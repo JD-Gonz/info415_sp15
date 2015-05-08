@@ -11,12 +11,13 @@ Example: My UW NetID is amckenna (my email is amckenna@uw.edu) so I would go to:
 - optimizations: 2 points
 - version number: 2 points
 
+To earn full points on all challenges you must craft a payload that exfiltrates the flag user's username and password. On several of the challenges it is fine if the payload only inconsistently exfiltrates the flag user's credentials, though two extra point will be awarded if you can craft a reliable payload that exfiltrates the flag user's name and password every time (optimization point). The payload should be in the form of a link that I can click on to see the results. An additional two points will be awarded if you can get the database version number and submit to me the payload used, as well as the correct version number.
 
-To earn full points on all challenges you must craft a payload that reliably exfiltrates the flag user's username and password. On several of the challenges it is fine if the payload only inconsistently exfiltrates the flag user's credentials, though two extra point will be awarded if you can craft a reliable payload that exfiltrates the flag user's name and password every time (optimization point). The payload should be in the form of a link that I can click on to see the results. An additional two points will be awarded if you can get the database version number and submit to me the payload used, as well as the correct version number.
+TL;DR - 13 URLs, one for each challenge (each producing the flag user's name and password) and one that shows the version number (you can use any challenge for this)
 
 This part must be submitted in the form of a .txt file!
 
-## Part 3 - The Report (7 points)
+## Part 2 - The Report (7 points)
 - Description (1 point)
 	- A description of what SQL Injection is and why it's bad
 - Test steps (4 points)
