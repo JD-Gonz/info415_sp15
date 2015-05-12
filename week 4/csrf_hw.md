@@ -14,6 +14,7 @@ TL;DR - for 100% you must turn in 2 pages and a URL/link that when clicked on by
 
 ## Part 2 - The Report 8 points
 - Description (1 point)
+	- What is CSRF and why is it bad
 - Test Steps (4 points)
 	- 2 sets of test steps, for the top 2 you solved, that include how you found the vulnerability and how it works.
 	- This should be detailed enough that someone in the class who didn't solve the challenges could walk through the steps, be able to reproduce the vulnerabilities, know how they worked, and why they happened.

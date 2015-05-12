@@ -185,10 +185,6 @@ Late penalty:
 	- SQL injection challenges
 	- pentest report
 	- due next tuesday
-- required 2
-	- advanced SQL challenges
-	- pentest report
-	- due next thursday
 - recommended
 	- read WAHH chapter 6
 	- read WAHH chapter 7
@@ -198,21 +194,28 @@ Late penalty:
 ### Tuesday
 - session fixation
 - session invalidation issues
+- timing attacks
+- user enumeration
+- insufficient entropy
 
 ### Wednesday
 - metasploit
 
 ### Thursday
 - authentication 2.0
-	- 2 factor auth
+	- 2 factor auth schemes
 	- single signon
-	- cookie tossing
 
 ### Homework
-- none
+- required
+	- advanced SQL challenges
+	- pentest report
+	- due next tuesday
+- recommended
+	- read WAHH Chapter 10 section "Manipulating File Paths"
+	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
 
-
-## Week 8 - Crypto (May 18 to 22)
+## Week 8 - Advanced Attacks (May 18 to 22)
 ### Tuesday
 - remote file inclusion (RFI)
 - local file inclusion (LFI)
@@ -230,12 +233,10 @@ Late penalty:
 		- LFI challenges
 		- race condition challenge
 		- tricking a password manager
-- recommended
-	- read WAHH Chapter 10 section "Manipulating File Paths"
-	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
+	- due next friday
 
 
-## Week 9 - Advanced (May 25 to 29)
+## Week 9 - Crypto (May 25 to 29)
 ### Tuesday
 - cryptography
 	- public/private key

@@ -18,6 +18,7 @@ Note: the default URL parameters have to be changed to your information.
 
 ## Part 3 - The Report (2 points)
 - Description (1 point)
+	- What is CSRF and why is it bad
 - Mitigations (1 point)
 	- Give a mitigation recommendations for stopping clickjacking. A couple sentences - what to do, how it works.
 
