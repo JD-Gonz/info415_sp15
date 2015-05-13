@@ -5,9 +5,8 @@ To go to your individual challenges go to http://sqli-challenges.r7.io/[uw-netid
 
 Example: My UW NetID is amckenna (my email is amckenna@uw.edu) so I would go to: http://sqli-challenges.r7.io/amckenna/
 
-## Part 1 - Vulnerabilities (32 points)
-- challenges 1-5: 10 points total (2 each)
-- challenges 6-12: 18 points total (3 each)
+## Part 1 - Vulnerabilities (28 points)
+- challenges 1-12: 24 points total (2 each)
 - optimizations: 2 points total
 - version number: 2 points
 
@@ -17,8 +16,8 @@ TL;DR - 13 URLs, one for each challenge (each producing the flag user's name and
 
 This part must be submitted in the form of a .txt file!
 
-## Part 2 - The Report (8 points)
-- Description (2 point)
+## Part 2 - The Report (7 points)
+- Description (1 point)
 	- A description of what SQL Injection is and why it's bad
 - Test steps (4 points)
 	- 1 set of test steps that include how you found the vuln and how it works.
