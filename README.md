@@ -210,33 +210,13 @@ Late penalty:
 - required
 	- advanced SQL challenges
 	- pentest report
-	- due next tuesday
+	- due next thursday
 - recommended
 	- read WAHH Chapter 10 section "Manipulating File Paths"
 	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
 
-## Week 8 - Advanced Attacks (May 18 to 22)
-### Tuesday
-- remote file inclusion (RFI)
-- local file inclusion (LFI)
 
-### Wednesday
-- bitcoin
-
-### Thursday
-- tricking password managers
-- race conditions
-
-### Homework
-- required
-	- advanced vulnerability challenges 
-		- LFI challenges
-		- race condition challenge
-		- tricking a password manager
-	- due next friday
-
-
-## Week 9 - Crypto (May 25 to 29)
+## Week 8 - Crypto (May 18 to 22)
 ### Tuesday
 - cryptography
 	- public/private key
@@ -246,7 +226,7 @@ Late penalty:
 	- algorithm modes: ECB, CBC, others
 
 ### Wednesday
-- buffer overflows
+- bitcoin
 
 ### Thursday
 - authentication
@@ -260,9 +240,26 @@ Late penalty:
 - ssl scan
 
 ### Homework
+- none
+
+
+## Week 9 - Advanced Attacks (May 25 to 29)
+### Tuesday
+- remote file inclusion (RFI)
+- local file inclusion (LFI)
+
+### Wednesday
+- buffer overflows
+
+### Thursday
+- tricking password managers
+- race conditions
+
+### Homework
 - required
 	- midterm
 	- due next tuesday
+
 
 ## Week 10 - Advanced (June 1 to 5)
 ### Tuesday
@@ -273,9 +270,6 @@ Late penalty:
 - online challenges
 
 ### Thursday
-- review
-
-### Homework
 - final
 
 
