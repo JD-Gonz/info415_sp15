@@ -30,7 +30,7 @@ In order to get full credit for this assignment you must turn in a .txt file con
 Note: these exploits may need to be explained in a series of steps instead of just providing a single link, so take care in explaining it as well as you can.
 
 ## Due Date
-Thursday May 21st 3:30pm (15:30)
+Friday May 22st 11:59pm (23:59)
 
 ## Notes & Hints
 These issues will be hard to find. Take a look at new functionality on the site and think about what must be happening on the backend to make this new functionality work.
