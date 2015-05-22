@@ -21,8 +21,10 @@ Once you have "weaponized" the vulnerability and used it to steal sensitive data
 In order to get full credit for this assignment you must turn in a .txt file containing the following:
 
 - 4 proofs of concepts that prove there is SQL injection in each of the 4 vulnerable areas
+	- These proofs of concepts should include the steps you took in order to show that you have in fact found a vulnerability and why your test steps prove it
 	- If you have additional files like images then include them and turn in a .zip file
 - 4 exploits that show the bad things you can do with the SQL injection
+	- These exploits should include the steps you took in order to exploit the vulnerability and payloads so I can replicate the tests
 	- These exploits should allow you to access or change sensitive data 
 
 Note: these exploits may need to be explained in a series of steps instead of just providing a single link, so take care in explaining it as well as you can.
