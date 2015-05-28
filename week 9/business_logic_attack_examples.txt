@@ -1,0 +1,58 @@
+Business Logic Attacks
+
+Detailed Examples
+	Winning an Online Auction
+		Description: 
+			> In order to prevent brute force attempts an online auction site locks accounts after 5 failed logins. After an account is locked the user has to go through the password reset proceedure involving an email to the account holder and password reset form. When the password is reset all current sessions are invalidated and the user must log in using the new credentials.
+			> When confirming a bid on an item the auction site requires its users to type in their password. This is used to stop Cross-Site Request Forgery and to verify their intent to bid.
+			> An attacker can abuse these two pieces of functionality in order to increase their odds of winning an auction. Near the end of auction an attacker looks at who else they are bidding against (identified by their email) and brute forces their account. This will then lock out the user and prevent them from logging in until they can go through the password reset flow. Thereby preventing them from bidding for at least a minute or two.
+		Solution:
+			> Do not display full usernames on the website.
+			> Alternative to an account lockout use a CAPTCHA system to prevent automated logins.
+			> Alternative to an account lockout use exponential backoff to delay successive login attempts.
+
+	"Interactive" T.V.
+		Description:
+			> A website for a news channel allowed registered users to submit weather related announcements for T.V. The submissions were posted onscreen during the newscast as a public service. To prevent abuse the station personnel must first review the submission's content before it is put on air. User's can edit content to reflect changes in weather status or whatever.
+			> The edits to the status are done after the initial approval of the message. A malicious individual could then submit a benign message that would be approved, then edit the message after approval and put whatever they want on TV.
+		Solution:
+			> Either do not allow editing of the message content after approval, or review every edit.
+
+	Free MacWorld 2007 Platinum Passes
+		Description:
+			> When registering for the 2007 MacWorld Expo a user could enter a special priority codes (upppercase characters, digits, and 5 characters in length) to win free Platinum Passes. The website hashed the priority code and checked it against a list of MD5 hashes in the website source before sending the request to the server. If the hash of the user's submitted priority code matched the one from the list it would be submitted to the server, otherwise the site would return an error.
+			> Attackers found the list and quickly generated all hashes for every possible priority code. They then compared the list from the website source to their generated list to determine what the priority codes were. These priority codes were then used to obtain platinum tickets.
+		Solution:
+			> Do not store critical data in the website source, which is sent to the user.
+
+	Day Trading Contest
+		Description:
+			> A fake stock trading platform allows players to use mock money to "buy" stocks based on their real market prices. In the game a user picks a stock, a number of shares, and sends a request to the system. The system then calculates the order price based on the current stock price and number of shares. This total is then sent back to the user to confirm the page. When they accept the trade the application executes based on the previously calculated information. 
+			> An attacker can watch for an earnings release and prior to it submit a buy and/or sell trade for the stock. After the system calculates the trade and requests the user to verify they simply leave the window open. When the earnings report is realeased and the stock goes up or down the user then only verifies the trade that earns them money. Additionally the trade is executed based on the pre-calculated price before the earnings report, earning the user even more money.
+		Solution:
+			> When executing a trade the system should always calculate price based on the current share price.
+			> A trade verification should have an expiration window of only 5 minutes or less.
+
+	Password Recovery
+		Description:
+			> An owner of a website plans to reduce support costs by using a customer self-service tool. One feature of this new tool is password recovery. The password recovery mechanism asks the user for their email address and an answer to a previously defined secret question. In this case the question is "what is your favorit color?" and if answered correctly allows user to submit their new password.
+			> There are very few available colors that the average user may choose so it is easy for an attacker to brute force all possible colors.
+			> To solve this problem the owner asks for a DOB which includes month, day, and year as a second secret question.
+			> While DOB is harder to guess it isn't confidential and the answer space is fairly small (12 x 30 x (ages 15 to 60) = 16,200).
+			> To solve this the owner asks for the city of birth and adds a CAPTCHA to limit brute force attempts.
+			> In many countries a large portion of the population lives in a handful of cities. In Mexico for instance 30% of the population is from one of five areas (Mexico City, Guadaljara, Monterrey, Puebla, and Toluca). Japan is another example. So for international users this is an easy to guess question.
+			> To solve all of this the owner just switches to email based password reset. When a user resets their password they are emailed the following link: http://website/password_reset?account=user@email.tld
+			> The account parameter is easily guessable. To solve this they switch to a 12 digit ID number that increments to ensure uniqueness. This looks like the following:
+				- http://website/password_reset?id=000000001000
+				- http://website/password_reset?id=000000001001
+				- http://website/password_reset?id=000000001002
+			> This is still easy to figure out. An attacker can simply reset their own passwords a few times to analyze the URL format. Then they would just increment from that number and see if they can beat anyone to their password reset.
+		Solution:
+			> Use an email based authentication system and send a link to a reset URL that has sufficient randomness.
+
+	Twitter Financial Data
+
+
+	Burning Man Tickets
+
+

@@ -15,18 +15,17 @@ The goals of this course center around familiarizing students with how to recogn
 
 # Grading
 Grade breakdown:
-- midterm: 25%
-- final: 15%
+- midterm: 40%
 - hw: 60%
 
 Late penalty: 
 - 10% daily (24hrs from time due)
 - stops at 50% deduction
-- 4 late days to use				
+- 4 late days to use
 
 # Resources
 - Bitsync key: BVJ3RLXHMCWW5AFAVNMB4RRVOLWW72UD7  
-- Suggested reading: Web Application Hacker's Handbook                                          
+- Suggested reading: Web Application Hacker's Handbook
 
 # Weekly Schedule
 
@@ -211,9 +210,6 @@ Late penalty:
 	- advanced SQL challenges
 	- pentest report
 	- due next thursday
-- recommended
-	- read WAHH Chapter 10 section "Manipulating File Paths"
-	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
 
 
 ## Week 8 - Crypto (May 18 to 22)
@@ -229,6 +225,20 @@ Late penalty:
 - bitcoin
 
 ### Thursday
+- canceled
+
+### Homework
+- none
+
+
+## Week 9 - Misc. Attacks (May 25 to 29)
+### Tuesday
+- canceled
+
+### Wednesday
+- business logic attacks
+
+### Thursday
 - authentication
 	- walk through typical auth scheme
 	- password hashing
@@ -240,37 +250,31 @@ Late penalty:
 - ssl scan
 
 ### Homework
-- none
+- required
+	- TBD
+	- due next thursday
+	- pentest report
+- recommended
+	- read WAHH Chapter 10 section "Manipulating File Paths"
+	- read WAHH Chapter 11 section "Example 12: Racing Against the Login"
 
 
-## Week 9 - Advanced Attacks (May 25 to 29)
+## Week 10 - Advanced Attacks (June 1 to 5)
 ### Tuesday
-- remote file inclusion (RFI)
-- local file inclusion (LFI)
+- mass assignment attacks
+- deserialization attacks
+- race conditions
 
 ### Wednesday
 - buffer overflows
 
 ### Thursday
-- tricking password managers
-- race conditions
+- testing techniques
+- online challenges
+- review
 
 ### Homework
 - required
-	- midterm
-	- due next tuesday
-
-
-## Week 10 - Advanced (June 1 to 5)
-### Tuesday
-- mass assignment attacks
-- deserialization attacks
-
-### Wednesday
-- online challenges
-
-### Thursday
 - final
+- due next tuesday
 
-
-## Final - no final during finals week, enjoy your summer!
