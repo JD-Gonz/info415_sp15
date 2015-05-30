@@ -239,19 +239,13 @@ Late penalty:
 - business logic attacks
 
 ### Thursday
-- authentication
-	- walk through typical auth scheme
-	- password hashing
-	- set cookie
-	- attacks
-- info leakage
-- cookie entropy
-- cookie settings
-- ssl scan
+- hash length extension attacks
+- local file inclusion attacks
+	- demo
 
 ### Homework
 - required
-	- TBD
+	- super secure bank pentest
 	- due next thursday
 	- pentest report
 - recommended
@@ -266,15 +260,17 @@ Late penalty:
 - race conditions
 
 ### Wednesday
-- buffer overflows
+- testing techniques
+- review
 
 ### Thursday
-- testing techniques
+- buffer overflows
 - online challenges
-- review
+
 
 ### Homework
 - required
-- final
-- due next tuesday
+	- final
+	- starts Friday June 5th 5:30pm (17:30) PST
+	- due Tuesday June 9th at 11:45am (11:45) PST
 

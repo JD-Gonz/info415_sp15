@@ -1,4 +1,4 @@
-## Advanced SQLi HW Grading
+## Advanced SQLi HW Grading (40 points total)
 Each of you will have your own seperate environment tied to your UW NetID.
 
 To go to your individual challenges go to https://sqli.csuw.net/[netid]
